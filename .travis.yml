@@ -32,7 +32,6 @@ install:
   - pip install unicodecsv
   - pip install xlrd
   - pip install pysftp
-  - git clone https://github.com/OCA/bank-statement-import.git ${HOME}/bank-statement-import/account_bank_statement_import
   - git clone --depth=1 https://github.com/OCA/maintainer-quality-tools.git ${HOME}/maintainer-quality-tools
   - export PATH=${HOME}/maintainer-quality-tools/travis:${PATH}
   - travis_install_nightly
